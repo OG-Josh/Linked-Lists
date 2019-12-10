@@ -1,0 +1,67 @@
+Script started on Fri 26 Apr 2019 06:41:10 PM PDT
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m date
+Fri Apr 26 18:41:11 PDT 2019
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m ls -l
+total 92
+-rw-rw-r-- 1 cs1c cs1c  5108 Apr 26 18:38 doubly_linked_list.cpp
+-rw-rw-r-- 1 cs1c cs1c  1373 Apr 26 18:38 doubly_linked_list.h
+-rw-rw-r-- 1 cs1c cs1c 73506 Apr 26 10:49 doubly_linked_list.o
+-rw-rw-r-- 1 cs1c cs1c  2939 Apr 26 18:38 hw14.cpp
+-rw-rw-r-- 1 cs1c cs1c     0 Apr 26 18:41 hw14.scr
+-rw-rw-r-- 1 cs1c cs1c   304 Apr 26 18:10 Makefile
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m make all
+g++ -g -Wall hw14.cpp doubly_linked_list.cpp  -o hw14
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m ls -l
+total 136
+-rw-rw-r-- 1 cs1c cs1c  5108 Apr 26 18:38 doubly_linked_list.cpp
+-rw-rw-r-- 1 cs1c cs1c  1373 Apr 26 18:38 doubly_linked_list.h
+-rw-rw-r-- 1 cs1c cs1c 73506 Apr 26 10:49 doubly_linked_list.o
+-rwxrwxr-x 1 cs1c cs1c 43120 Apr 26 18:41 [0m[01;32mhw14[0m
+-rw-rw-r-- 1 cs1c cs1c  2939 Apr 26 18:38 hw14.cpp
+-rw-rw-r-- 1 cs1c cs1c     0 Apr 26 18:41 hw14.scr
+-rw-rw-r-- 1 cs1c cs1c   304 Apr 26 18:10 Makefile
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m ./hw14
+======TEST WITH DOUBLE LINKED LIST TYPE INT===============
+Part 1: 
+Linked list 1: 88 78 62 143 60 
+
+Part 2: 
+Linked 1 copy constructor: 88 78 62 143 60 
+Linked 1 copy assignment: 88 78 62 143 60 
+
+Part 3: 
+Linked list 2: 60 143 62 78 88 
+
+Part 4 (after deleting the third node): 
+Linked list 1: 88 78 62 60 
+Linked list 2: 60 143 62 88 
+
+Part 5 (after adding a node in the middle of the list: 
+Linked list 1: 88 78 70 62 60 
+Linked list 2: 60 143 70 62 88 
+==========================================================
+
+======TEST WITH DOUBLE LINKED LIST TYPE DOUBLE ===========
+Part 1: 
+Linked list 1: 60.1 143.2 62.3 78.4 80.5 200.6 
+
+Part 2: 
+Linked 1 copy constructor: 60.1 143.2 62.3 78.4 80.5 200.6 
+Linked 1 copy assignment: 60.1 143.2 62.3 78.4 80.5 200.6 
+
+Part 3: 
+Linked list 2: 200.6 80.5 78.4 62.3 143.2 60.1 
+Part 4 (after deleting the third node): 
+Linked list 1: 60.1 143.2 62.3 80.5 200.6 
+Linked list 2: 200.6 80.5 78.4 143.2 60.1 
+
+Part 5 (after adding a node in the middle of the list: 
+Linked list 1: 60.1 143.2 70 62.3 80.5 200.6 
+Linked list 2: 200.6 80.5 70 78.4 143.2 60.1 
+==========================================================
+
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m 
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW14[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW14 $[00m exit
+exit
+
+Script done on Fri 26 Apr 2019 06:41:31 PM PDT
